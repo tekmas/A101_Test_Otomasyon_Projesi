@@ -1,8 +1,10 @@
 # A101_Test_Otomasyon_Projesi
 Case detail : Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chrome browser kullanarak test otomasyon ödevi yapılacak.
 
-Ödeme ekranı doldurulmayacak. Aşağıdaki senaryoyu web ve mobil olmak üzere 2 çeşit oluşturabilirlerse çok iyi olur. En az Web’de yapmak zorunlu.
+Ödeme ekranı doldurulmayacak. 
 - Senaryoya üye kaydı oluşturmadan devam edilecek.
+- a101 web sitesine girilir.
+- "çerezleri kabul et" butonu tıklanır.
 - Giyim--> Aksesuar--> Kadın İç Giyim-->Dizaltı Çorap bölümüne girilir.
 - Açılan ürünün siyah olduğu doğrulanır.
 - Sepete ekle butonuna tıklanır.
@@ -11,7 +13,7 @@ Case detail : Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chro
 - Üye olmadan devam et butonuna tıklanır.
 - Mail ekranı gelir.
 - Sonrasında adres ekranı gelir. Adres oluştur dedikten sonra ödeme ekranı gelir.
-- Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği ,doğru ekrana yönlendiklerini kontrol edecekler.
+- Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği kontrol edilir.
 <html>
 <hr>
 </html>
