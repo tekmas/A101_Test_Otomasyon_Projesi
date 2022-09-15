@@ -48,6 +48,8 @@ public class A101_page {
     public WebElement mahalle;
     @FindBy (xpath = "//textarea [@name='line']")
     public WebElement adres;
-    @FindBy (xpath = "//button [@type='button'] [@class='button green js-set-country js-prevent-emoji'] ")
-    public WebElement kaydet;
+    @FindBy (xpath = "//input [@type='radio'] [@name='shipping'] [@class='js-shipping-radio'] [@value='102']")
+    public WebElement mngKargo;
+    @FindBy(xpath = "//button [@type='submit' ][@class='button block green js-proceed-button']")
+    public WebElement kaydetVeDevamet;
 }

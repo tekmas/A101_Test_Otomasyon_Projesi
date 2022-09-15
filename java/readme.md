@@ -1,5 +1,5 @@
 # A101_Test_Otomasyon_Projesi
-Case detail : Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chrome browser kullanarak test otomasyon ödevi yapılacak.
+Case detail : Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chrome browser kullanarak test otomasyonu yapıldı.
 
 Ödeme ekranı doldurulmayacak. 
 - Senaryoya üye kaydı oluşturmadan devam edilecek.
@@ -12,8 +12,7 @@ Case detail : Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chro
 - Sepeti Onayla butonuna tıklanır.
 - Üye olmadan devam et butonuna tıklanır.
 - Mail ekranı gelir.
-- Sonrasında adres ekranı gelir. Adres oluştur dedikten sonra ödeme ekranı gelir.
-- Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği kontrol edilir.
+- Sonrasında adres ekranı gelir. Adres oluşturulur ve katdet butonuna basılır.
 <html>
 <hr>
 </html>
