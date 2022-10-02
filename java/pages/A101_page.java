@@ -14,14 +14,16 @@ public class A101_page {
     }
     @FindBy(xpath ="//button[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']")
     public WebElement cerezi_kabul_et;
-    @FindBy(xpath ="//a[text()='Dizaltı Çorap']")
-    public WebElement dizalti_corap;
     @FindBy (xpath ="(//a [@href='/giyim-aksesuar/'])[1]" )
     public  WebElement giyim;
     @FindBy (xpath = "//a [@href='/giyim-aksesuar/kadin-ic-giyim/']")
     public WebElement ic_giyim;
+    @FindBy(xpath ="//a[text()='Dizaltı Çorap']")
+    public WebElement dizalti_corap;
     @FindBy(xpath = "//label [@for='attributes_integration_colourSİYAH']")
     public  WebElement renk_secme;
+    @FindBy (xpath = "(//h3 [@class='name'])[1]")
+    public WebElement urunadi;
     @FindBy(xpath = "//a [@href='/giyim-aksesuar/penti-kadin-50-denye-pantolon-corabi-siyah/'] [@class='name-price'] [@title='Penti Kadın 50 Denye Pantolon Çorabı Siyah']")
     public WebElement corap_secme;
     @FindBy(xpath = "//button [@class='add-to-basket button green block with-icon js-add-basket']")
@@ -48,8 +50,10 @@ public class A101_page {
     public WebElement mahalle;
     @FindBy (xpath = "//textarea [@name='line']")
     public WebElement adres;
-    @FindBy (xpath = "//input [@type='radio'] [@name='shipping'] [@class='js-shipping-radio'] [@value='102']")
-    public WebElement mngKargo;
+    @FindBy (xpath = "//input [@type='radio']  [@value='333']")
+    public WebElement kargo;
     @FindBy(xpath = "//button [@type='submit' ][@class='button block green js-proceed-button']")
     public WebElement kaydetVeDevamet;
+    @FindBy (xpath = "(//div [@class='section-hero'])[5]")
+    public WebElement taksitSecenekleri;
 }
